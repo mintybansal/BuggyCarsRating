@@ -1,0 +1,5 @@
+org\BuggyCarsRating\stepdefs\Hooks.class
+org\BuggyCarsRating\stepdefs\LoginStepDef.class
+org\BuggyCarsRating\stepdefs\RegisterStepDef.class
+runner\TestRunner.class
+org\BuggyCarsRating\stepdefs\VotingStepDef.class

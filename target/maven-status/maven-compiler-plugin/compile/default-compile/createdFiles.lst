@@ -1,0 +1,7 @@
+org\BuggyCarsRating\pages\ProfilePage.class
+org\BuggyCarsRating\pages\ModelPage.class
+utilities\WebDriverUtils.class
+org\BuggyCarsRating\pages\OverallRatingPage.class
+org\BuggyCarsRating\pages\RegisterPage.class
+org\BuggyCarsRating\pages\BasePage.class
+org\BuggyCarsRating\pages\HomePage.class

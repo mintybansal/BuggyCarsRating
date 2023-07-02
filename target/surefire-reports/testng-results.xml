@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-03T00:02:07 NZST" name="BuggyCars Test" finished-at="2023-07-03T00:02:40 NZST" duration-ms="33376">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-03T00:02:07 NZST" name="Buggy Cars Test" finished-at="2023-07-03T00:02:40 NZST" duration-ms="33376">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:07 NZST" name="setUpClass" finished-at="2023-07-03T00:02:07 NZST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@304a3655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:14 NZST" duration-ms="6528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login as a valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Buggy Cars Rating"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:14 NZST" duration-ms="6664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register with valid user information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register with Buggy Cars Rating"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:13 NZST" duration-ms="5988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login as an invalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Buggy Cars Rating"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:13 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:18 NZST" duration-ms="4543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register with duplicate user information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register with Buggy Cars Rating"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:14 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:36 NZST" duration-ms="22350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Vote for a car with a comment - "Lamborghini" & "Diablo""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vote for a Selected Car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:14 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-03T00:02:37 NZST" duration-ms="22823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Vote for a car without a comment - "Alfa Romeo" & "Giulietta""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vote for a Selected Car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@242b836]" started-at="2023-07-03T00:02:37 NZST" name="tearDownClass" finished-at="2023-07-03T00:02:40 NZST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Buggy Cars Test -->
+  </suite> <!-- BuggyCars Test -->
+</testng-results>

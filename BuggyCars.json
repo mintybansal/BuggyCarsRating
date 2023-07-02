@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "d53790b1-c770-402c-9470-5ab71faf896f",
+		"name": "BuggyCars API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13910353"
+	},
+	"item": [
+		{
+			"name": "VerifyRegistration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code name has string Created\", function () {\r",
+							"    pm.response.to.have.status(\"Created\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"cyra11117\",\r\n\"firstName\":\"CY\",\r\n\"lastName\":\"Dh\",\r\n\"password\":\"Cyra@123\",\r\n\"confirmPassword\":\"Cyra@123\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

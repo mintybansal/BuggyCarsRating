@@ -1,0 +1,72 @@
+00:02:08 INFO  - Initializing driver
+00:02:08 INFO  - Initializing driver
+00:02:08 INFO  - Initializing driver
+00:02:08 DEBUG - Using Log4J2 as the default logging framework
+00:02:08 DEBUG - -Dio.netty.leakDetection.level: simple
+00:02:08 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+00:02:08 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@54244fe7
+00:02:08 DEBUG - -Dio.netty.noUnsafe: false
+00:02:08 DEBUG - Java version: 11
+00:02:08 DEBUG - sun.misc.Unsafe.theUnsafe: available
+00:02:08 DEBUG - sun.misc.Unsafe.copyMemory: available
+00:02:08 DEBUG - sun.misc.Unsafe.storeFence: available
+00:02:08 DEBUG - java.nio.Buffer.address: available
+00:02:08 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00:02:08 DEBUG - java.nio.Bits.unaligned: available, true
+00:02:08 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @43b6123e
+00:02:08 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+00:02:08 DEBUG - sun.misc.Unsafe: available
+00:02:08 DEBUG - maxDirectMemory: 8487174144 bytes (maybe)
+00:02:08 DEBUG - -Dio.netty.tmpdir: C:\Users\MINTY~1.BAN\AppData\Local\Temp (java.io.tmpdir)
+00:02:08 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+00:02:08 DEBUG - Platform: Windows
+00:02:08 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+00:02:08 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+00:02:08 DEBUG - java.nio.ByteBuffer.cleaner(): available
+00:02:08 DEBUG - -Dio.netty.noPreferDirect: false
+00:02:08 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+00:02:08 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00:02:08 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00:02:08 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+00:02:08 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00:02:08 DEBUG - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00:02:08 DEBUG - -Dio.netty.eventLoopThreads: 16
+00:02:08 DEBUG - -Dio.netty.noKeySetOptimization: false
+00:02:08 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+00:02:08 DEBUG - -Dio.netty.allocator.numHeapArenas: 16
+00:02:08 DEBUG - -Dio.netty.allocator.numDirectArenas: 16
+00:02:08 DEBUG - -Dio.netty.allocator.pageSize: 8192
+00:02:08 DEBUG - -Dio.netty.allocator.maxOrder: 9
+00:02:08 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+00:02:08 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+00:02:08 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+00:02:08 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00:02:08 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+00:02:08 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00:02:08 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+00:02:08 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00:02:08 DEBUG - -Dio.netty.allocator.type: pooled
+00:02:08 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+00:02:08 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+00:02:09 DEBUG - -Dio.netty.processId: 36448 (auto-detected)
+00:02:09 DEBUG - -Djava.net.preferIPv4Stack: false
+00:02:09 DEBUG - -Djava.net.preferIPv6Addresses: false
+00:02:10 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+00:02:10 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00:02:10 DEBUG - -Dio.netty.machineId: 94:e7:0b:ff:fe:fa:16:6c (auto-detected)
+00:02:11 DEBUG - -Dio.netty.initialSeedUniquifier: 0x04c73cdf7c6f9e2a
+00:02:12 INFO  - Initializing page objects
+00:02:12 INFO  - Initializing page objects
+00:02:12 INFO  - Initializing page objects
+00:02:12 INFO  - Thread-16 Pages Initialized
+00:02:12 INFO  - Thread-17 Pages Initialized
+00:02:12 INFO  - Thread-18 Pages Initialized
+00:02:14 INFO  - Initializing driver
+00:02:14 INFO  - Initializing driver
+00:02:14 INFO  - Initializing driver
+00:02:16 INFO  - Initializing page objects
+00:02:16 INFO  - Thread-17 Pages Initialized
+00:02:17 INFO  - Initializing page objects
+00:02:17 INFO  - Thread-16 Pages Initialized
+00:02:17 INFO  - Initializing page objects
+00:02:17 INFO  - Thread-18 Pages Initialized
