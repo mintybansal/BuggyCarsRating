@@ -22,7 +22,7 @@ public class LoginStepDef {
     }
 
     @When("I enter User Name {string} and Password {string}")
-    public void i_enter_user_name_and_password(String userName, String password) throws InterruptedException {
+    public void i_enter_user_name_and_password(String userName, String password)  {
         web.home.login(userName,password);
     }
 

@@ -56,7 +56,7 @@ public class BasePage {
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
-                //log.error(e);
+                log.error(e);
             }
             title = driver.getTitle();
         }
@@ -69,7 +69,7 @@ public class BasePage {
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
-            //log.error(e);
+            log.error(e);
         }
 
         new HomePage(driver).login("BCR-" + dateTime, "BCR123^bcr");
